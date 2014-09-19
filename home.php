@@ -160,7 +160,7 @@ if ($un) {
         </td>
     </tr>
     <tr>
-        <td><div class=aboutUs>About Ask & Receive</div></td>
+        <td><div class=aboutUs></div></td>
     </tr>
 </table>
 -->
