@@ -13,13 +13,13 @@ The idea for this project is merely to allow donations to be permanantly bit-mar
 <br>
 <b>How messy?</b>
 
-<ul><li>The entire /upload directory which contains code pulled off (https://github.com/blueimp/jQuery-File-Upload) contains obsolete files..
+<ul><li>The entire /upload directory which contains code pulled off https://github.com/blueimp/jQuery-File-Upload contains obsolete files..
 </li></ul>
 
 
 <br><br>
 <br><br>
-<b>Spanish Translation for the above </b> Este projecto no esta en desarollamiento todavia no ayuden con esto TODAVIA, primero vamos a trabajar en ileathan/ViewMarking. Que es un proyecto para ver como la comunidad net marking esta usando sus marks.
+<b>Spanish Translation for the above </b> Este proyecto no esta en desarollamiento todavia no ayuden con esto TODAVIA, primero vamos a trabajar en ileathan/ViewMarking. Que es un proyecto para ver como la comunidad net marking esta usando sus marks.
 
 La idea esta es simplemente darle una bit-marka permanente a la gente q dona cosas. Si quieren obviamente. Como pueden ver el cdigo es un lio y luego lo arreglare.
 
