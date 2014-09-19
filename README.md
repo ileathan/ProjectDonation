@@ -1,7 +1,7 @@
 <h1>ProjectDonation</h1>
 ===============
 
-A project to donate 1 satoshi worth of any participating coin in exchange for a succesful donation
+A project to donate 1 satoshi worth of any participating coin in exchange for a succesful donation.
 
 <hr width=50%>
 
