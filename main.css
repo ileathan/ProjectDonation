@@ -1,0 +1,140 @@
+    #bannerQuote {
+        text-align: center;
+        border-left-color: #d26b22;
+        border-left-style: dashed;
+
+
+        border-right-color: #d26b22;
+        border-right-style: dashed;
+
+        background: rgba(210, 128, 178, 0.50);
+        text-shadow: 1px 1px #d20055;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: #d21d0f;
+        /*background-color: #D280B2;*/
+    }
+
+
+    /* div container containing the form  */
+    #searchContainer {
+        margin:20px;
+    }
+    /* Style the search input field. */
+    #searchField {
+        float:left;
+        width:300px;
+        height:27px;
+        line-height:27px;
+        text-indent:10px;
+        font-family:arial, sans-serif;
+        font-size:1em;
+        color:#333;
+        background: #fff;
+        border:solid 1px #d9d9d9;
+        border-top:solid 1px #c0c0c0;
+        border-right:none;
+    }
+    /* Style the "X" text button next to the search input field */
+    #delete {
+        float:left;
+        width:16px;
+        height:29px;
+        line-height:27px;
+        margin-right:15px;
+        padding:0 10px 0 10px;
+        font-family:"Lucida Sans", "Lucida Sans Unicode", sans-serif;
+        font-size:22px;
+        background: #fff;
+        border:solid 1px #d9d9d9;
+        border-top:solid 1px #c0c0c0;
+        border-left:none;
+    }
+    /* Set default state of "X" and hide it */
+    #delete #x {
+        color:#A1B9ED;
+        cursor:pointer;
+        display:none;
+    }
+    /* Set the hover state of "X" */
+    #delete #x:hover {
+        color:#36c;
+    }
+    /* Syle the search button. Settings of line-height, font-size, text-indent used to hide submit value in IE */
+    #submit {
+        cursor:pointer;
+        width:70px;
+        height: 31px;
+        line-height:0;
+        font-size:0;
+        text-indent:-999px;
+        color: transparent;
+        background: url(search.png) no-repeat #4d90fe center;
+        border: 1px solid #3079ED;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+    }
+    /* Style the search button hover state */
+    #submit:hover {
+        background: url(searchmouseover.png) no-repeat center #357AE8;
+        border: 1px solid #2F5BB7;
+    }
+    /* Clear floats */
+    .fclear {
+        clear:both;
+    }
+    .loginLink {
+        padding-right: 5px;
+        color: #041f4c;
+        font-size: 15px;
+        font-family: courier;
+        /*border:3px dotted #24c5ff;*/
+        float: right;s
+    }
+    /*
+    .annoyingSpaceByLoginLinkFix {
+        padding-right: 10px;
+        float: right;
+    } read the html comment about this */
+    div.upload_ID {
+        padding-top: 5px;
+    }
+    div.titleContainer_C {
+        /* Position the title/banner (not sure if this will work on mobiles yet) */
+        float:top;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        text-align: center;
+        width:500px;
+        height:80px;
+        margin-left: -250px;
+        /*half width*/
+        margin-top: -40px;
+        padding-top: 3px;
+        /*half height*/
+    }
+    /* This hold the entire searching container */
+    div.mainSearch_C {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        width:466px;
+        height:200px;
+        margin-left: -233px;
+        /*half width*/
+        margin-top: -100px;
+        /*half height*/
+    }
+    .aboutUs {
+        text-align: center;
+        color: grey;
+        font-style: italic;
+        font-family: message-box;
+        border: 1px dotted #d3d3d3;
+    }
+    .aboutTable {
+        padding-top: 25px;
+        padding-left: 25px;
+    }

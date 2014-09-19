@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account login/create</title>
+</head>
+<BODY bgcolor="#FFFFE0">
+<H2><FONT COLOR="BLUE"><div id="type">Account login</div></FONT></H2>
+<HR WIDTH="75%" ALIGN="Left" COLOR="Black">
+<BR>
+<FORM NAME="data" METHOD="POST" ACTION="CLogin.php" onsubmit="return process()">
+    <input type="hidden" value="login" name="type">
+    <TABLE BORDER="0" CELLSPACING="6" CELLPADDING="10">
+        <TR>
+            <TD><FONT COLOR="#636363">Username:</FONT></TD>
+            <TD><INPUT TYPE="TEXT" NAME="username"></TD>
+        </TR><TR>
+        <TD><FONT COLOR="#636363">Password:</FONT></TD>
+        <TD><INPUT TYPE="PASSWORD" NAME="password"></TD>
+    </TR><TR>
+        <TD><div ID="rp" STYLE="display:none;"><FONT COLOR="#636363">Repeat PW:</FONT></div></TD>
+        <td><div ID="rp2" STYLE="display:none;"><INPUT TYPE="PASSWORD" NAME="password2"></div></td>
+    </TR><TR>
+        <TD COLSPAN=2><CENTER><INPUT TYPE="SUBMIT" VALUE="Submit"></CENTER></TD>
+    </TR><TR>
+        <td colspan="2"><center><font size="6"></font><B> ( </B></font>
+            <a href="#" id="link" onclick="return toggle();">Create account</a>
+            <font size="6"></font><B> ) </B></font></center>
+        </td>
+    </TR>
+    </TABLE></FORM>
+<BR>
+
+
+</body>
+</html>
+
+<script>
+
+    function toggle() {
+        rp = document.getElementById("repeatPassword");
+        rp2 = document.getElementById("repeatPasswordText");
+
+        if (rp.style.display == "none") {
+            rp.style.display = "block";
+            rp2.style.display = "block";
+            document.getElementById("link").innerHTML = "Login";
+            document.getElementById("type").innerHTML = "Create account";
+            document.data.type.value = "create";
+        } else {
+            rp.style.display = "none";
+            rp2.style.display = "none";
+            document.getElementById("link").innerHTML = "Create account";
+            document.getElementById("type").innerHTML = "Account login";
+            document.data.type.value = "login";
+        }
+    }
+
+    function process() {
+        if ((document.data.password.value == document.data.password2.value) || (document.data.type.value == "login")) { return true; }
+        else { alert("Passwords don't match."); return false; }
+    }
+
+</script>
