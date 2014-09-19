@@ -1,7 +1,9 @@
-ProjectDonation
+<h1>ProjectDonation</h1>
 ===============
 
 A project to donate 1 satoshi worth of any participating coin in exchange for a succesful donation
+
+<hr>
 
 
 Please dont contribute to this code.. YET.. I want us to work on ileathan/ViewMarking first which is suppose to be a collaborative effort to create a website that shows how users of the marking are using their marks.
